@@ -12,7 +12,6 @@
         android:orientation="vertical"
         android:id="@+id/layoutBefore">
 
-
         <SeekBar
             android:id="@+id/seek_process"
             android:layout_width="fill_parent"
@@ -27,7 +26,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -38,7 +36,6 @@
                 android:fontFamily="monospace"
                 android:text="To upload a file"
                 android:textSize="34sp"
-
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -82,12 +79,8 @@
             android:tooltipText="Select Y"
             android:layout_margin="16dp"
             android:id="@+id/spinner_chooser_Y"
-            android:contextClickable="true"
-            />
-
-
+            android:contextClickable="true"/>
 
     </LinearLayout>
-
 
 </android.support.constraint.ConstraintLayout>
